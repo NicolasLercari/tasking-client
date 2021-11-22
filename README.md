@@ -2,7 +2,7 @@
 
 # Run
 
-###Docker-compose 
+### Docker-compose 
     Follow instructions on [tasking-compose](https://github.com/NicolasLercari/tasking-compose)
 
 ### Local with NPM
