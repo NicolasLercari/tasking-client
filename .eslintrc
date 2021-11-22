@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": false
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "modules": true,
+    "spread": true,
+    "globalReturn": true
+  },
+  "rules": {
+    "no-var": 1,
+    "no-eval": "error",
+    "indent": ["error", 2],
+    "no-console": ["error", { "allow": ["warn", "info"] }],
+    "padded-blocks": ["error", "never"],
+    "prefer-arrow-callback": [0, { "allowNamedFunctions": true }],
+    "func-names": ["error", "never"],
+    "no-unused-vars": [2, { "args": "after-used", "argsIgnorePattern": "^_" }],
+    "react/react-in-jsx-scope": 0,
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": true,
+        "classes": true
+      }
+    ],
+    "max-nested-callbacks": ["error", 5]
+  }
+}
