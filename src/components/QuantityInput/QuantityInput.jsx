@@ -11,6 +11,7 @@ const QuantityInput = ({ onChange, quantity, onClick, defaultQuantity }) => {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
+        flexWrap: "wrap",
       }}
     >
       <NumericInput

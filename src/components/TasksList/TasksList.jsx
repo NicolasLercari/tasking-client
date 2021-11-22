@@ -58,7 +58,13 @@ const TasksList = () => {
   };
 
   return (
-    <Box style={{ display: "flex", alignItems: "start" }}>
+    <Box
+      style={{
+        display: "flex",
+        alignItems: "start",
+        justifyContent: "space-between",
+      }}
+    >
       <InfiniteList
         items={tasks}
         totalSize={totalCount}
